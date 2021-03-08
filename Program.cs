@@ -2,15 +2,24 @@
 
 namespace _3._4_Mod_Pract
 {
-    class Program
+    internal class ProgramBase
     {
         static void Main(string[] args)
         {
-            const byte Sunday = 1;
+}
 
-            const byte Monday = 2; 
-
-            Console.ReadKey();
+    class Program : ProgramBase
+    {
+        enum DaysOfWeek : byte 
+            {
+                Sunday = 1,
+                Monday = 2,
+                Tuesday = 3,
+                Wednesday = 4,
+                Thursday = 5,
+                Friday = 6,
+                Saturday = 7
+            }
         }
     }
 }
