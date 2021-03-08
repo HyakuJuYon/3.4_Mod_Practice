@@ -11,6 +11,12 @@ namespace _3._4_Mod_Pract
             MyFavoriteDay = DaysOfWeek.Thursday;
 
             Console.WriteLine(MyFavoriteDay);
+
+            Semaphore GoGoGo;
+
+            GoGoGo = Semaphore.Green;
+
+            Console.WriteLine(GoGoGo);
         }
     }
     enum DaysOfWeek : byte 
