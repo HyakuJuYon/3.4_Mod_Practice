@@ -2,15 +2,7 @@
 
 namespace _3._4_Mod_Pract
 {
-    internal class ProgramBase
-    {
-        static void Main(string[] args)
-        {
-}
-
-    class Program : ProgramBase
-    {
-        enum DaysOfWeek : byte 
+    enum DaysOfWeek : byte 
             {
                 Sunday = 1,
                 Monday = 2,
@@ -20,6 +12,4 @@ namespace _3._4_Mod_Pract
                 Friday = 6,
                 Saturday = 7
             }
-        }
-    }
 }
