@@ -23,4 +23,8 @@ namespace _3._4_Mod_Pract
                 Friday,
                 Saturday
             }
+    enum Semaphore : ushort 
+            {
+            
+            }
 }
