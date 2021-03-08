@@ -25,6 +25,8 @@ namespace _3._4_Mod_Pract
             }
     enum Semaphore : ushort 
             {
-            
+            Red = 100,
+            Yellow = 200,
+            Green = 300
             }
 }
